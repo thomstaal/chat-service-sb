@@ -1,5 +1,5 @@
 var express = require('express')();
-var http = require('http').Server(app);
+var http = require('http').Server(express);
 var io = require('socket.io')(http);
 const aws = require('aws-sdk');
 var PORT = process.env.PORT || 5000;
